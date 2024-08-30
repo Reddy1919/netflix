@@ -1,0 +1,58 @@
+*{
+    background-color: #0f0e0e;
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif ;
+    filter: drop-shadow(10px 2px 10px rgba(128, 9, 9, 0.63));
+    color: yellow;
+}
+.banner{
+    background-image: url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYvcH5XZXrAmpWYoTMa3AtaY7YddNIj_roEK7WK2gVOxl4RJaebRRuAmXtgJYL0C5Xukq3yBXyLuNLtwI-jF6IwzEKV-_79uqLtQ.jpg?r=0a9&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    font-size: 12rem;
+    color: #0f0e0e;
+    
+   
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+    
+        
+}
+.posters::-webkit-scrollbar{
+    display: none;
+    
+}
+.poster{
+    margin: 0% 1%;
+    border-radius: 2%;
+}
+section h1{
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1% 0% 0% 1%;
+    font-size: larger;
+}
+h3{
+    
+    font-family: 400;
+    text-align: center;
+    padding: 2% 0%;
+    font-size: medium;
+
+
+}
